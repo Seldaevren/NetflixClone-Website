@@ -1,0 +1,498 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+    background-color: black;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  
+}
+
+.navbar{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+    
+    margin: auto;
+    height: 100px; 
+    
+   }
+
+   .box {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    opacity: 0.8;
+    height: 644px;
+
+        }
+
+
+
+   .logo{
+
+    position:relative;
+    z-index: 10;
+   }
+
+.logoimg{
+    
+    height: 100px;
+    width: 180px;
+    
+   
+    
+}
+
+
+    header{
+    
+    background-repeat: no-repeat;
+    background-image: url(arkaplan.jpg) ; 
+   
+    height: 644px;
+    background-size: max(1200px, 100vw);
+    background-position:  center center;
+       background-color:black;
+}
+
+.navbarson{
+    padding-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    z-index: 10;
+ 
+ }
+
+
+
+
+
+.selectlanguage{
+    background-color: #101010;
+    outline: none;
+    border: solid white 1px;
+    left: -8px;
+    border-radius: 5px;
+    color: white;
+    height: 36px;
+    width:126px;
+    padding: 0px 25px;
+    margin-right: 20px;
+    opacity: 0.6;
+    cursor: pointer;
+  
+}
+.oturumaç{
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #C11119;
+    height: 36px;
+    width: 105px;
+    padding: auto;
+    outline: none;
+    border:none
+   
+    }
+  
+    .textkapsayıcı{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+         color: white;
+         
+         margin-top: 100px;
+         position:relative;
+         z-index: 10;
+
+    }
+    .başlık{
+        
+    
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    .açıklama1{
+        font-weight:500;
+         font-size: 23px; 
+    }
+    .açıklama2{
+        font-weight:500;
+        font-size: 18px; 
+        margin: 5px;
+        
+    }
+
+    .mailbuttonkapsayıcı{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+        position:relative;
+    z-index: 10;
+        
+    }
+
+.email1{
+   background-color: #101010;
+    outline:none ;
+    width:300px ;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 80px 10px 3px;
+    border: solid #C11119 ;
+    opacity:0.8 ;
+    color: white;
+   
+   
+}
+
+.başlayın{
+outline: none;
+background-color: #C11119;
+color: white;
+width: 160px;
+height: 52px;
+border: none;
+
+font-size: 22px;
+font-weight: bold;
+border-radius: 5px;
+margin-left: 5px ;
+cursor: pointer;
+
+}
+
+.sectiongrey{
+    background-color:#1D201F ;
+    height: 8px;
+    outline: none;
+    border: none;
+    
+}
+
+.sectionkapsayıcı{
+   color: white;
+   max-width: 70vw;
+   height: 72vh ;
+   
+}
+.yazılarvideo1{
+    height: 250px;
+    padding-right:80px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-left: 175px ;
+    margin-top: 50px;
+    margin-bottom:50px ;
+    max-width: 400px
+   
+     
+     }
+
+     .yazılarvideo1 p {
+        margin-top: 0;
+        
+
+     }
+     
+     .yazılarvideo1 h1{
+       margin-bottom: 15px;
+       padding-top: -80px;
+
+     }
+
+
+     .videokapsayıcı{
+        
+        position: relative;
+       
+     }
+
+     .videokapsayıcı img{
+        height:354px ;
+        width: 472px;
+        position: relative;
+          z-index: 10;
+          margin-left: 700px;
+          margin-top: -500px;
+          
+     }
+     .videokapsayıcı video {
+      
+        position: absolute;
+        margin-left: 705px;
+        margin-top: -288px;
+        width: 471px;
+        padding-left: 0;
+        height: 200px;
+        
+     }
+
+
+
+    
+
+.secondsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+  
+
+    
+
+
+
+.secondimg img{
+    height: 354px;
+    width: 472px;
+    margin-top: 90px ;
+   margin-left: -80px;
+    margin-bottom: 50px;
+   
+    
+ 
+}
+
+
+
+
+
+.secondtext{
+ 
+    width: 500px;
+    color: white;
+    margin-top: 60px;
+    margin-left: -20px;
+    
+}
+
+.secondtext h2 {
+     font-weight: bolder;
+    font-size: 50px;
+  
+    height:130px ;
+}
+
+.secondtext p {
+  
+    font-size: 25px;
+    padding-top: -120px;
+    
+    margin-top: -20px;
+}
+
+.secondfoto{
+    float: right;
+    
+}
+
+
+/* thirdvideo side    */
+
+.sectionthird{
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 502px;
+   
+    
+    
+     
+}
+
+.secondvideo img{
+
+    height:400px;
+    width: 500px;
+   position: relative;
+    z-index: 2;
+}
+
+
+   
+
+
+.secondvideo{
+    position:relative ;
+   
+    height: 354px;
+    margin-left: -15px;
+}
+
+
+
+.secondvideo video{
+   
+    height: 395px;
+    width: 310px;
+    position: absolute;
+    margin-left:-406px ;
+    margin-top: -70px;
+    
+         }
+
+
+
+ .secondvideotext{
+margin-right: 60px;
+
+height: 300px;
+width: 450px;
+display: flex;
+margin-left: 100px;
+flex-direction: column
+
+         }
+
+.secondvideotext p{
+    
+     font-size: 25px;
+     margin-top: -10px;;
+}  
+
+.secondvideotext h1{
+    font-size: 50px;
+
+}
+
+/* child side    */
+
+.child{
+    margin-left: 178px;
+    
+}
+.childimg{
+    margin-right: 40px;
+}
+
+.childtext{
+    margin-bottom: 50px;
+}
+
+.questionscontainer{
+    color: white;
+    height: 850px;
+}
+
+.fq{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 45px;
+    margin-bottom: 40px;
+    font-weight: bolder;
+}
+
+.questions{
+    background-color:rgb(45,45,45);;
+    margin-bottom: 10px;
+    height: 80px;
+    width:900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    font-size: 20px;
+    font-weight:600px;
+    outline: none;
+    border: none;
+}
+
+.questions:hover{
+    cursor: pointer;
+    background-color:#414141 ;
+    transition: 0.5s;
+}
+
+.greyside{
+    display: flex;
+    flex-direction: column;
+    margin-left: 190px;
+}
+    .questions i {
+    font-size: 50px;
+    padding-right:30px;
+    
+    
+}
+
+.questionsp{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 35px;
+}
+.email2{
+    background-color:#1C2432 ;
+    
+}
+
+/* footer     */
+
+
+
+.infocontainer1 a{
+    display: block;
+    margin-top: 10px;
+    color:grey ;
+    padding-bottom: 4px;
+
+}
+
+.infocontainer {
+    
+    
+display: flex;
+justify-content: center;
+align-items: start;
+width: 1000px;
+height: 200px;
+margin-top: 10px;
+margin-left: 10px;
+}
+.infop{
+    margin-left: 15px;
+}
+
+.infocontainer1{
+    margin-right:90px;
+    padding-right:35px;
+    padding-top: 10px;
+    word-wrap: normal;
+
+    
+}
+.info{
+    
+    width:1000px;
+    height: 350px;
+    margin-left: 100px;
+    margin-top: 60px;
+    position: relative;
+    color: white;
+}
+
+.footerlang{
+position: absolute;
+margin-top: -23px;
+margin-left:15px ;
+
+}
+
