@@ -1,11 +1,11 @@
 # Netflix Clone Website
-Netflix Clone websitesi geliştirildi.
+This project is a Netflix clone developed using HTML and CSS. The goal of this project is to recreate the user interface of the Netflix platform, focusing on responsive design and modern web development practices.
 
-# Kullanılan Teknolojiler
--HTML
--CSS
+# Technologies used
+- HTML: For the structure of the website.
+- CSS: For styling and responsive design.
 
-# Ekran Görüntüleri
+# Preview
 ![](Netflixpp.png)
 ![](Netflixppp.png)
 
